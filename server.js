@@ -32,7 +32,7 @@ const CheeseSchema = new mongoose.Schema({
 
 const Cheese = mongoose.model("Cheese", CheeseSchema)
 
-// ROUTES
+// ROUTES, lets just test this, shall we?
 //      [home/test]
 app.get("/", (req, res) => {
     res.send("Hello World!")
